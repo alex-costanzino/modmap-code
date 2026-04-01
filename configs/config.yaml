@@ -1,0 +1,24 @@
+exp_name: experiment
+model: ModMap
+class_name: plastic_stool
+train_params:
+  epochs: 200
+  batch_size: 48
+  lr: 1e-4
+  use_scheduler: True
+  scheduler: OneCycleLR
+  cycle_momentum: False
+  anneal_strategy: cos
+  pct_start: 0.1
+  feature_extractor: dino-v2
+  mapper: mlp
+net_params:
+  modulator_hidden_dim: 128
+data_params:
+  setup: real2real
+  dataset_path: /data/SiM3D # Replace with your path to the SiM3D dataset.
+  image_size: 896
+  checkpoints_savepath: checkpoints
+  qualitatives_savepath: output
+debug: False
+generate_qualitatives: True
