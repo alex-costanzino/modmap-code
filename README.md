@@ -38,7 +38,7 @@ Experiments on SiM3D, a recent benchmark that introduces the first multiview and
 
 </h4>
 
-<img src="./assets/architecture.jpg" alt="Alt text" style="width: 800px;" title="architecture">
+<img src="./assets/pipeline.png" alt="Alt text" style="width: 800px;" title="architecture">
 
 :fountain_pen: If you find this code useful in your research, please cite:
 
